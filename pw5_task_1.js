@@ -8,9 +8,9 @@ container.style.flexWrap = "wrap";
 function my_initiation() {
     let cell = document.createElement("div");
     cell.className = "cell";
-    cont.append(cell);
     cell.style.width = "80px";
     cell.style.height = "80px";
+    container.append(cell)
 
 }
 
