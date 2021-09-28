@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+}
+.cl1{
+    width: 33.33%;
+}
+#big_picture{
+    position: absolute;
+    margin-top: 900px;
+}
+#big_picture img {
+	width: 700px;
+	height: 500px;
+
+	margin: 0 auto;
+}
+.big_image{
+padding-top: 600px;
+}

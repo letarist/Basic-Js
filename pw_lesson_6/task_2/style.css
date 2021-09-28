@@ -1,0 +1,41 @@
+.container{
+    margin: 0 auto;
+    width: 900px;
+    border: 1px solid black;
+}
+.product{
+    width: 300px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.cost {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+}
+.allButton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+}
+.allButton:hover{
+    background-color: #fc5a5a;
+}
+.basket{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
